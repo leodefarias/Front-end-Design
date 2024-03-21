@@ -1,3 +1,57 @@
-button {
+.youtube {
     background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.youtube:hover{
+    opacity: 80%;
+}
+
+.youtube:active {
+    opacity: 50%;
+}
+
+.join {
+    background-color: white;
+    color: rgb(6, 95, 212);
+    border-color: rgb(6, 95, 212);
+    border: 1px solid;
+    height: 36px;
+    width: 62px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.join:hover {
+    background-color: rgb(6, 95, 212);
+    color: white;
+}
+
+.join:active {
+    opacity: 80%;
+}
+
+.tweet {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    height: 36px;
+    width: 62px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.tweet:hover {
+    box-shadow: 6px 3px rgba(0, 0, 0, 30%) ;
 }
