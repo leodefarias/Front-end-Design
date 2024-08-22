@@ -16,3 +16,19 @@
     color: white;
     border: 10px solid #ff325e;
 }
+
+.tiem-1{
+    grid-area: header;
+}
+
+.item-2 {
+    grid-area: main;
+}
+
+.item-3 {
+    grid-area: aside;
+}
+
+.item-4 {
+    grid-area: footer;
+}
